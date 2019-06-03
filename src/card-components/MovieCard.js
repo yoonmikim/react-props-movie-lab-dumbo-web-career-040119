@@ -32,7 +32,7 @@ export default class MovieCard extends Component {
   render() {
     return (
       <div className="movie-card">
-        <CardFront />
+        <CardFront poster=posterMap />
         <CardBack />
       </div>
     )
